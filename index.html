@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assembleia De Deus</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Coda&family=Roboto:wght@100&display=swap');
+      </style>
+
+    <style>
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ff6a11;
+    padding: 1px 0;
+    text-align: center;
+    flex-wrap: wrap
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu a{
+    display: flex;
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 12px;
+    font-family: 'Coda';
+}
+
+
+.logo {
+    display: flex;
+    height: 70px;
+    width: 70px;
+}
+
+
+
+
+
+
+
+.bg {
+    gap: 0px 50px;
+    display: flex;
+    background-color: rgb(17, 17, 17);
+    width: 100%;
+    height: 85vh;
+    background-position: center;
+    padding: 100px ;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.imagemcentro {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    border-radius: 2px;
+    font-family: "montserrat";
+    font-size: 12px;
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+.txtcentral {
+color: white;
+font-family: 'Roboto';
+gap: 0px;
+font-size: 10px;
+}
+
+.Nossahistória {
+   display:flex: ;
+   line-height: 30px;
+   font-family: "montserrat";
+}
+
+.texto {
+    width: 400px;
+   }
+
+
+
+
+
+   .gallery {
+  display: flex;
+  justify-content: space-around;
+}
+
+figure {
+  position: relative;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+figure:hover figcaption {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footertxt {
+    display: flex;
+    padding: 30px 0;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Verdana;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 15vh;
+    background-color: #2c2c2c;
+    text-align: center;
+    
+}
+
+
+    
+@media(max-width: 700px) {
+
+
+    .logo {
+    display: flex;
+    height: 60px;
+}
+
+    .menu a{
+    display: flex;
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 12px;
+    font-family: 'Coda';
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.bg {
+    gap: 0px 50px;
+    display: flex;
+    background-color: rgb(17, 17, 17);
+    width: 100%;
+    height: 85vh;
+    background-position: center;
+    padding: 30px ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+    
+.Nossahistória {
+    display:flex: ;
+   line-height: 10px;
+   font-family: "montserrat";
+}
+
+
+.imagemcentro {
+    display: flex;
+    width: 180px;
+    height: 130px;
+    border-radius: 2px;
+    justify-content: end;
+}
+
+
+.texto {
+    width: 200px;
+    font-size: 10px;
+    justify-content: left;
+   }
+
+
+
+}
+
+
+
+
+
+}
+
+</style>
+</head>
+<body>
+    <header> 
+        <div class="menu">
+            <img class="logo" src="./logo vetor branca.png" alt="">
+            <a href="">CONGREGAÇÕES</a>
+            <a href="">DEPARTAMENTOS</a>
+            <a href="">AGENDA 2023</a>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+
+
+<section class="bg">
+<DIv>
+    <figure class="imagemcentro">
+        <img src="./imagem-igreja.jpg" alt="Imagem 1">
+        <figcaption>Congregação Sede (Passagem de Russas)</figcaption>
+      </figure>
+</DIv>
+
+<div class="txtcentral">
+    <h1 class="Nossahistória">
+Nossa história
+    </h1>
+    </h2 class="texto">
+ O histórico que segue, retrata uma grande parte da história da Igreja Evangélica Assembleia de Deus – Ministério Templo Central em Russas (IEADTC), que segundo o livro datado de 02/03/1998 foi uma pesquisa feita pelo Pr. Antenor Bezerra Dias, durante sua administração, juntamente com irmãos mais antigos cujas informações serviram para enriquecer a história Assembleiana no município de Russas. À Assembleia de Deus começou sua historia no início dos anos setenta, precisamente em 1971, até porque o Campo Sacerdotal antes desta data era vinculado à Ass. de Deus de Morada Nova, na supervisão do saudoso…
+    <h2>
+</div>
+</section>
+
+
+
+
+
+
+
+
+<footer>
+    <p class="footertxt">todos os direitos reservados</p>
+</footer>
+
+
+</body>
+</html>
